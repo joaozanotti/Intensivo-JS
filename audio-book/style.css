@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-image: linear-gradient(#3b1566, #5f4da8);
   height: 100vh;
@@ -12,6 +18,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: white;
+  color: black;
+  border: 5px solid white;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+img {
+  border-radius: 20px;
 }
 
 button {
@@ -19,33 +34,33 @@ button {
   color: inherit;
   border: none;
   cursor: pointer;
+  color: #7c8b97;
+  transition: .3s;
 }
 
-.music-container {
+button:hover {
+  color: #525b63;
+}
+
+.info-faixa {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 1em 0 1em 0;
+  gap: 0.5em;
+  font-size: 1.5em;
 }
 
-#informacoes-faixa {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 2rem 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-
-#anterior, #proximo {
-  font-size: 3rem;
-}
-
-#play-pause {
-  font-size: 4rem;
-}
-
-#container-botoes {
+.botoes {
   width: 100%;
   display: flex;
   justify-content: space-around;
+}
+
+#btVoltar, #btAvancar {
+  font-size: 3em;
+}
+
+#btPlayPause {
+  font-size: 4em;
 }
