@@ -36,8 +36,8 @@ function trocarCor() {
     let idBotao = this.id;
     corSelecionada = +idBotao.substring(4);
 
-    let linkImagem = selecionarImagem(imagemSelecionada);
-    imagemVisualizacao.src = "./imagens/opcoes-cores/" + linkImagem;
+    let linkImagemView = selecionarImagem(imagemSelecionada);
+    imagemVisualizacao.src = "./imagens/opcoes-cores/" + linkImagemView;
 
     imgMiniPulseira.src = "./imagens/opcoes-cores/" + opcoesCores[corSelecionada].pulseira;
     imgMiniRelogio.src = "./imagens/opcoes-cores/" + opcoesCores[corSelecionada].relogio;
@@ -52,8 +52,8 @@ function trocarImagem() {
     let idBotao = this.id;
     imagemSelecionada = +idBotao.substring(7);
 
-    let linkImagem = selecionarImagem(imagemSelecionada);
-    imagemVisualizacao.src = "./imagens/opcoes-cores/" + linkImagem;
+    let linkImagemView = selecionarImagem(imagemSelecionada);
+    imagemVisualizacao.src = "./imagens/opcoes-cores/" + linkImagemView;
 }
 
 function selecionarImagem(idImagem) {
