@@ -34,9 +34,42 @@ function trocarTamanho() {
 
 function trocarCor() {
     let idBotao = this.id;
-    corSelecionada = idBotao.substring(4);
+    corSelecionada = +idBotao.substring(4);
 
-    imagemVisualizacao.src = "./imagens/opcoes-cores/" + opcoesCores[corSelecionada].relogio;
+    let linkImagem = selecionarImagem(imagemSelecionada);
+    imagemVisualizacao.src = "./imagens/opcoes-cores/" + linkImagem;
+
+    imgMiniPulseira.src = "./imagens/opcoes-cores/" + opcoesCores[corSelecionada].pulseira;
+    imgMiniRelogio.src = "./imagens/opcoes-cores/" + opcoesCores[corSelecionada].relogio;
+    imgMiniTela.src = "./imagens/opcoes-cores/" + opcoesCores[corSelecionada].tela;
+
     tituloProduto.innerHTML = "Pulseira loop esportiva " + opcoesCores[corSelecionada].nome.toLowerCase() + " para caixa de " + opcoesTamanhos[tamanhoSelecionado];
+
     nomeCor.innerHTML = "Cor - " + opcoesCores[corSelecionada].nome;
+}
+
+function trocarImagem() {
+    let idBotao = this.id;
+    imagemSelecionada = +idBotao.substring(7);
+
+    let linkImagem = selecionarImagem(imagemSelecionada);
+    imagemVisualizacao.src = "./imagens/opcoes-cores/" + linkImagem;
+}
+
+function selecionarImagem(idImagem) {
+    let linkImagem;
+
+    switch (idImagem) {
+        case 0:
+            linkImagem = opcoesCores[corSelecionada].pulseira;
+            break;
+        case 1:
+            linkImagem = opcoesCores[corSelecionada].relogio;
+            break;
+        case 2:
+            linkImagem = opcoesCores[corSelecionada].tela;
+            break;
+    }
+
+    return linkImagem;
 }
