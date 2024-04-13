@@ -9,13 +9,14 @@ function App() {
   const [paginaSelecionada, alterarPaginaSelecionada] = React.useState(0);
 
   const secoesMenu = [pratosPrincipais, sobremesas, bebidas];
+  const nomeSecoes = ['Pratos Principais', 'Sobremesas', 'Bebidas'];
 
   return (
     <>
       <img src={hashtauranteImg} className='capa'/>
       <Navegacao alterarPaginaSelecionada={alterarPaginaSelecionada}/>
-      <h2>Pratos Principais</h2>
-      <div className="menu">
+      <h2 className='titulo'>{nomeSecoes[paginaSelecionada]}</h2>
+      <div className='menu'>
         {secoesMenu[paginaSelecionada].map((prato) => (
           <ItemCardapio
             nome={prato.nome}
