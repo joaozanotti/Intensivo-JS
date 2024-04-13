@@ -1,7 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import './App.css';
+import hashtauranteImg from './assets/hashtaurante.webp';
+import Navegacao from './navegacao';
+import ItemCardapio from './itemCardapio';
+import { pratosPrincipais, sobremesas, bebidas } from './cardapio';
 
 function App() {
   const [count, setCount] = useState(0)
