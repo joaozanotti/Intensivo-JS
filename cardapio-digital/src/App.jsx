@@ -6,7 +6,9 @@ import ItemCardapio from './itemCardapio';
 import { pratosPrincipais, sobremesas, bebidas } from './cardapio';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [paginaSelecionada, alterarPaginaSelecionada] = React.useState(0);
+
+  const secoesMenu = [pratosPrincipais, sobremesas, bebidas];
 
   return (
     <>
