@@ -16,5 +16,4 @@ function comportamentoSocket(socket) {
 io.addListener('connection', comportamentoSocket);
 
 app.use(express.static('public'));
-
 servidorHttp.listen(3000);
