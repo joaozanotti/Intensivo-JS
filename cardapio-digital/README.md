@@ -1,8 +1,23 @@
-# React + Vite
+# Cardápio Digital
+<div style="display: inline_block">
+  <img src="https://i.ibb.co/KyrF3wh/cardapio-digital.png" width="500px">
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📄 Descrição do projeto
+Este projeto se trata de um cardápio digital interativo de um restaurante.<br>
+O usuário pode navegar entre os pratos principais, sobremesas e bebidas, os quais são mostrados dinamicamente.
 
-Currently, two official plugins are available:
+## 🛠 Tecnologias utilizadas
+<div>
+  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg">
+  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg">
+  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg">
+  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg">
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Deploy
+Implementado no Vercel. <a href="https://intensivojs-cardapio-digital.vercel.app/">Clique aqui</a> para ver o projeto.
+
+## 🚧 Autores
+João Vitor Zanotti<br>
+<a href="https://www.youtube.com/c/HashtagPrograma%C3%A7%C3%A3o">Hashtag Programação</a>
