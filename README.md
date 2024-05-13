@@ -46,9 +46,7 @@ Este repositório engloba os 4 projetos que foram propostos e realizados durante
       <td>4</td>
       <td><a href="./chat-tempo-real/">Chat em Tempo Real</a></td>
       <td align="center">
-        <a href="https://intensivojs-chat-realtime.vercel.app/">
-          <img width="400px" src="https://i.ibb.co/k8vssrT/chat-tempo-real.png">
-        </a>
+        <img width="400px" src="https://i.ibb.co/k8vssrT/chat-tempo-real.png">
       </td>
     </tr>      
   </tbody>
