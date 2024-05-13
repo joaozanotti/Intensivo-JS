@@ -16,7 +16,7 @@ O usuário pode se conectar e enviar mensagens, que serão exibidas para os outr
 </div>
 
 ## 🚀 Deploy
-Implementado no Github Pages. <a href="https://intensivojs-chat-realtime.vercel.app">Clique aqui</a> para ver o projeto.
+Implementado utilizando o servidor local do Node.
 
 ## 🚧 Autores
 João Vitor Zanotti<br>
