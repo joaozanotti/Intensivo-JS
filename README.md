@@ -3,7 +3,7 @@
   <img src="https://i.ibb.co/3N19w3T/hashtag.jpg" width="300px">
 </div>
 
-## 📄 Descrição do projeto
+## 📝 Descrição do projeto
 Este repositório engloba os 4 projetos que foram propostos e realizados durante o Intensivão de Javascript da Hashtag Programação.
 
 <table>
