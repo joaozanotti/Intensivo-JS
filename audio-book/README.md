@@ -3,15 +3,15 @@
   <img src="https://i.ibb.co/5nPMdFy/audio-book.png" width="500px">
 </div>
 
-## 📄 Descrição do projeto
+## 📝 Descrição do projeto
 Este projeto se trata de um audiobook online do livro: Dom Casmurro<br>
 Possui funcionalidades de iniciar, pausar, avançar e voltar os áudios.
 
 ## 🛠 Tecnologias utilizadas
 <div>
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg">
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg">
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </div>
 
 ## 🚀 Deploy
